@@ -23,3 +23,9 @@ git checkout aca3abb
 git branch old-master
 
 ![Зад.3](https://github.com/poker303/Git-5-sem/blob/report/docs/task3.jpg)
+
+## Задание 4
+
+git blame prisma/seed.ts
+
+![Зад.4](https://github.com/poker303/Git-5-sem/blob/report/docs/task4.jpg)
