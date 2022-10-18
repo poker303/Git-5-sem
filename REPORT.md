@@ -65,3 +65,27 @@ git checkout feature
 git filter-branch --env-filter "GIT_AUTHOR_NAME='ФИО'; GIT_AUTHOR_EMAIL='ПОЧТА'; GIT_COMMITTER_NAME='ФИО'; GIT_COMMITTER_EMAIL='ПОЧТА'" HEAD~*количество_коммитов_до_разветвления_начала_разветвления*..HEAD
 
 ![Зад.7](https://github.com/poker303/Git-5-sem/blob/report/docs/task7.jpg)
+
+## Задание 8
+
+git checkout master
+
+git config rerere.enabled true
+
+git merge feature
+
+Исправляем конфликты.
+
+git add *file-name*
+
+git commit --no-edit
+
+git reset --hard HEAD~1
+
+git merge feature
+
+git add *file-name*
+
+git commit --no-edit
+
+![Зад.8](https://github.com/poker303/Git-5-sem/blob/report/docs/task8.jpg)
