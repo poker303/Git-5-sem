@@ -89,3 +89,9 @@ git add *file-name*
 git commit --no-edit
 
 ![Зад.8](https://github.com/poker303/Git-5-sem/blob/report/docs/task8.jpg)
+
+## Задание 9
+
+git fsck
+
+![Зад.9](https://github.com/poker303/Git-5-sem/blob/report/docs/task9.jpg)
