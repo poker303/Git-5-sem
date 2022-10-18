@@ -29,3 +29,23 @@ git branch old-master
 git blame prisma/seed.ts
 
 ![Зад.4](https://github.com/poker303/Git-5-sem/blob/report/docs/task4.jpg)
+
+## Задание 5
+
+npm install --save-dev jest
+
+git checkout master
+
+git bisect start
+
+git bisect bad
+
+git bisect good hash-code коммита, первого, чтобы интервалом поиска был весь репозиторий
+
+npm run test
+
+Eсли тест (`failed`), то пишем `git bisect bad`.
+
+Eсли (`passed`), то `git bisect good`, а потом повторяем `npm run test`, пока не найдем первый bad commit.
+
+![Зад.5](https://github.com/poker303/Git-5-sem/blob/report/docs/task5.jpg)
