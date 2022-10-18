@@ -95,3 +95,11 @@ git commit --no-edit
 git fsck
 
 ![Зад.9](https://github.com/poker303/Git-5-sem/blob/report/docs/task9.jpg)
+
+## Задание 10
+
+git gc --prune=now --aggressive
+
+![Зад.10](https://github.com/poker303/Git-5-sem/blob/report/docs/task10_1.jpg)
+
+![Зад.10](https://github.com/poker303/Git-5-sem/blob/report/docs/task10_2.jpg)
