@@ -49,3 +49,11 @@ Eсли тест (`failed`), то пишем `git bisect bad`.
 Eсли (`passed`), то `git bisect good`, а потом повторяем `npm run test`, пока не найдем первый bad commit.
 
 ![Зад.5](https://github.com/poker303/Git-5-sem/blob/report/docs/task5.jpg)
+
+## Задание 6
+
+git filter-branch --tree-filter "rm -f .env" -- --all
+
+echo .env >> .gitignore
+
+![Зад.6](https://github.com/poker303/Git-5-sem/blob/report/docs/task6.jpg)
