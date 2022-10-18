@@ -13,3 +13,13 @@ git cherry-pick ci
 git branch -D ci
 
 ![Зад.2](https://github.com/poker303/Git-5-sem/blob/report/docs/task2.jpg)
+
+## Задание 3
+
+git reflog
+
+git checkout aca3abb
+
+git branch old-master
+
+![Зад.3](https://github.com/poker303/Git-5-sem/blob/report/docs/task3.jpg)
