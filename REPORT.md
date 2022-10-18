@@ -57,3 +57,11 @@ git filter-branch --tree-filter "rm -f .env" -- --all
 echo .env >> .gitignore
 
 ![Зад.6](https://github.com/poker303/Git-5-sem/blob/report/docs/task6.jpg)
+
+## Задание 7
+
+git checkout feature
+
+git filter-branch --env-filter "GIT_AUTHOR_NAME='ФИО'; GIT_AUTHOR_EMAIL='ПОЧТА'; GIT_COMMITTER_NAME='ФИО'; GIT_COMMITTER_EMAIL='ПОЧТА'" HEAD~*количество_коммитов_до_разветвления_начала_разветвления*..HEAD
+
+![Зад.7](https://github.com/poker303/Git-5-sem/blob/report/docs/task7.jpg)
